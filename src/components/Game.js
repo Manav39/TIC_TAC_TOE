@@ -38,7 +38,7 @@ const Game = () => {
     });
 
   return (
-    <><h1><center>TIC-TAC-TOE</center></h1>
+    <><h1><center>TIC-TAC-TOE !</center></h1>
       <Board squares={history[stepNumber]} onClick={handleClick} />
       <div className="info-wrapper">
         <div>
