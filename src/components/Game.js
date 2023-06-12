@@ -19,7 +19,7 @@ const Game = () => {
     setStepNumber(historyPoint.length);
     setXisNext(!xIsNext);
   };
-
+console.log("romil")
   const jumpTo = (step) => {
     setStepNumber(step);
     setXisNext(step % 2 === 0);
